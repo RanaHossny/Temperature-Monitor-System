@@ -1,0 +1,4 @@
+./objects/main.o: main.c LIB\BIT_Math.h LIB\STD_Types.h \
+  MCAL\MEXTI\MEXTI_Int.h MCAL\MGPIO\MGPIO_Int.h MCAL\MNVIC\MNVIC_Int.h \
+  MCAL\MRCC\MRCC_Int.h MCAL\MSYSTICK\MSYSTICK_Int.h \
+  MCAL\MUSART\MUSART_Int.h

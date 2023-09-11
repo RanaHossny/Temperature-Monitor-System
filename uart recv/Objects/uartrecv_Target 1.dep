@@ -1,0 +1,58 @@
+Dependencies for Project 'uartrecv', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\MCAL\MEXTI\MEXTI_Proc.c)(0x64DA98F2)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/c/Keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/c/Keil/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F401xC -D_RTE_-o ./objects/mexti_proc.o -MD)
+I (MCAL\MEXTI\..\..\LIB\BIT_Math.h)(0x64D483D6)
+I (MCAL\MEXTI\..\..\LIB\STD_Types.h)(0x64D483D6)
+I (MCAL\MEXTI\MEXTI_Int.h)(0x64E5DFEF)
+I (MCAL\MEXTI\MEXTI_Private.h)(0x64E5DFEF)
+I (MCAL\MEXTI\MEXTI_Config.h)(0x64D9E3A7)
+F (.\MCAL\MGPIO\MGPIO_Proc.c)(0x64EE7FCA)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/c/Keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/c/Keil/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F401xC -D_RTE_-o ./objects/mgpio_proc.o -MD)
+I (MCAL\MGPIO\..\..\LIB\BIT_Math.h)(0x64D483D6)
+I (MCAL\MGPIO\..\..\LIB\STD_Types.h)(0x64D483D6)
+I (MCAL\MGPIO\MGPIO_Int.h)(0x64EE7989)
+I (MCAL\MGPIO\MGPIO_Private.h)(0x64D88F5D)
+I (MCAL\MGPIO\MGPIO_Config.h)(0x64D4C71B)
+F (.\MCAL\MNVIC\MNVIC_PROC.c)(0x64DA9ABD)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/c/Keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/c/Keil/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F401xC -D_RTE_-o ./objects/mnvic_proc.o -MD)
+I (MCAL\MNVIC\..\..\LIB\BIT_Math.h)(0x64D483D6)
+I (MCAL\MNVIC\..\..\LIB\STD_Types.h)(0x64D483D6)
+I (MCAL\MNVIC\MNVIC_Int.h)(0x64D8BA50)
+I (MCAL\MNVIC\MNVIC_Private.h)(0x64D8B6D4)
+I (MCAL\MNVIC\MNVIC_Config.h)(0x64D8B483)
+F (.\MCAL\MRCC\MRCC_PROC.c)(0x64EE8208)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/c/Keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/c/Keil/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F401xC -D_RTE_-o ./objects/mrcc_proc.o -MD)
+I (MCAL\MRCC\..\..\LIB\BIT_Math.h)(0x64D483D6)
+I (MCAL\MRCC\..\..\LIB\STD_Types.h)(0x64D483D6)
+I (MCAL\MRCC\MRCC_Int.h)(0x64DC9257)
+I (MCAL\MRCC\MRCC_Private.h)(0x64E5F813)
+I (MCAL\MRCC\MRCC_Config.h)(0x64E5F7DE)
+F (.\MCAL\MSYSTICK\MSYSTICK_Proc.c)(0x64EE57F3)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/c/Keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/c/Keil/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F401xC -D_RTE_-o ./objects/msystick_proc.o -MD)
+I (MCAL\MSYSTICK\..\..\LIB\BIT_Math.h)(0x64D483D6)
+I (MCAL\MSYSTICK\..\..\LIB\STD_Types.h)(0x64D483D6)
+I (MCAL\MSYSTICK\MSYSTICK_Int.h)(0x64EE55D7)
+I (MCAL\MSYSTICK\MSYSTICK_Private.h)(0x64DB44D7)
+I (MCAL\MSYSTICK\MSYSTICK_Config.h)(0x64DB3D6E)
+F (.\MCAL\MUSART\MUSART_proc.c)(0x64FF6608)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/c/Keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/c/Keil/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F401xC -D_RTE_-o ./objects/musart_proc.o -MD)
+I (MCAL\MUSART\..\..\LIB\STD_TYPES.h)(0x64D483D6)
+I (MCAL\MUSART\..\..\LIB\BIT_MATH.h)(0x64D483D6)
+I (MCAL\MUSART\MUSART_Priv.h)(0x64E55952)
+I (MCAL\MUSART\MUSART_Config.h)(0x64FF660B)
+I (MCAL\MUSART\MUSART_Int.h)(0x64F05DC2)
+F (.\main.c)(0x64FF6811)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/c/Keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/c/Keil/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F401xC -D_RTE_-o ./objects/main.o -MD)
+I (LIB\BIT_Math.h)(0x64D483D6)
+I (LIB\STD_Types.h)(0x64D483D6)
+I (MCAL\MEXTI\MEXTI_Int.h)(0x64E5DFEF)
+I (MCAL\MGPIO\MGPIO_Int.h)(0x64EE7989)
+I (MCAL\MNVIC\MNVIC_Int.h)(0x64D8BA50)
+I (MCAL\MRCC\MRCC_Int.h)(0x64DC9257)
+I (MCAL\MSYSTICK\MSYSTICK_Int.h)(0x64EE55D7)
+I (MCAL\MUSART\MUSART_Int.h)(0x64F05DC2)
+F (RTE/Device/STM32F401CCFx/startup_stm32f401xc.s)(0x6374903A)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-ID:/c/Keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/c/Keil/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F401xC SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f401xc.o)
+F (RTE/Device/STM32F401CCFx/system_stm32f4xx.c)(0x6374903A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/c/Keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/c/Keil/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F401xC -D_RTE_-o ./objects/system_stm32f4xx.o -MD)
+I (D:\c\Keil\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x6374903A)
+I (D:\c\Keil\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x6374903A)
+I (D:\c\Keil\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (D:\c\Keil\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (D:\c\Keil\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (D:\c\Keil\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (D:\c\Keil\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (D:\c\Keil\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F912E)
+I (D:\c\Keil\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x6374903A)

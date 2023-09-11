@@ -1,0 +1,4 @@
+./objects/msystick_proc.o: MCAL\MSYSTICK\MSYSTICK_Proc.c \
+  MCAL\MSYSTICK\..\..\LIB\BIT_Math.h MCAL\MSYSTICK\..\..\LIB\STD_Types.h \
+  MCAL\MSYSTICK\MSYSTICK_Int.h MCAL\MSYSTICK\MSYSTICK_Private.h \
+  MCAL\MSYSTICK\MSYSTICK_Config.h

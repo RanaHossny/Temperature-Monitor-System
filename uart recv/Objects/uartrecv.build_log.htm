@@ -1,0 +1,195 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mahmoud Omar Ibrahim, Ai, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  D:\c\Keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.8.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\ws\tryin keil\uart recv\uartrecv.uvprojx
+Project File Date:  08/30/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'D:\c\Keil\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(2): warning: In file included from...
+././LIB/STD_Types.h(12): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef long long s64;
+        ^
+././LIB/STD_Types.h(13): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long int u64;
+                 ^
+main.c(4): warning: In file included from...
+././MCAL/MGPIO/MGPIO_Int.h(61): warning: // comments are not allowed in this language [-Wcomment]
+void MGPIO_vSetPinValue_fast(u8 A_u8PortId, u8 A_u8PinNo , u8 A_u8PinVal);//BSRR
+                                                                          ^
+main.c(6): warning: In file included from...
+././MCAL/MRCC/MRCC_Int.h(3): warning: // comments are not allowed in this language [-Wcomment]
+//AHB1
+^
+main.c(9): warning: no previous extern declaration for non-static variable 'flag' [-Wmissing-variable-declarations]
+volatile u8 flag=0;
+            ^
+main.c(9): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile u8 flag=0;
+         ^
+main.c(10): warning: no previous prototype for function 'callback' [-Wmissing-prototypes]
+void callback(void){
+     ^
+main.c(10): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void callback(void){
+^
+static 
+main.c(32): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        MGPIO_vSetPinMode(GPIO_PORTA,0,GPIO_MODE_OUTPUT);
+                                       ^
+././MCAL/MGPIO/MGPIO_Int.h(12): note: expanded from macro 'GPIO_MODE_OUTPUT'
+#define GPIO_MODE_OUTPUT 0b01
+                         ^
+main.c(33): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        MGPIO_vSetPinOutputSpeed(GPIO_PORTA,0,GPIO_MEDIUM_SPEED);
+                                              ^
+././MCAL/MGPIO/MGPIO_Int.h(24): note: expanded from macro 'GPIO_MEDIUM_SPEED'
+#define GPIO_MEDIUM_SPEED 0b01
+                          ^
+main.c(38): warning: // comments are not allowed in this language [-Wcomment]
+        //MEXTI_vEnableLine(ln0,PortA);
+        ^
+main.c(44): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        MGPIO_vSetPinMode(GPIO_PORTB,6,GPIO_MODE_ALTFUN);
+                                       ^
+././MCAL/MGPIO/MGPIO_Int.h(13): note: expanded from macro 'GPIO_MODE_ALTFUN'
+#define GPIO_MODE_ALTFUN 0b10
+                         ^
+main.c(45): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        MGPIO_vSetAlternativeFunction(GPIO_PORTB,6,AF7);
+                                                   ^
+././MCAL/MGPIO/MGPIO_Int.h(43): note: expanded from macro 'AF7'
+#define AF7  0b0111
+             ^
+main.c(46): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        MGPIO_vSetPinMode(GPIO_PORTB,7,GPIO_MODE_ALTFUN);
+                                       ^
+././MCAL/MGPIO/MGPIO_Int.h(13): note: expanded from macro 'GPIO_MODE_ALTFUN'
+#define GPIO_MODE_ALTFUN 0b10
+                         ^
+main.c(47): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        MGPIO_vSetAlternativeFunction(GPIO_PORTB,7,AF7);
+                                                   ^
+././MCAL/MGPIO/MGPIO_Int.h(43): note: expanded from macro 'AF7'
+#define AF7  0b0111
+             ^
+main.c(70): warning: no newline at end of file [-Wnewline-eof]
+        }
+         ^
+main.c(25): warning: unused parameter 'argc' [-Wunused-parameter]
+int main(int argc,char ** argv){
+             ^
+main.c(25): warning: unused parameter 'argv' [-Wunused-parameter]
+int main(int argc,char ** argv){
+                          ^
+16 warnings generated.
+compiling main.c...
+MCAL/MUSART/MUSART_proc.c(13): warning: non-portable path to file '"../../LIB/STD_Types.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "../../LIB/STD_TYPES.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~
+         "../../LIB/STD_Types.h"
+MCAL/MUSART/MUSART_proc.c(13): warning: In file included from...
+MCAL/MUSART/../../LIB/STD_TYPES.h(12): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef long long s64;
+        ^
+MCAL/MUSART/../../LIB/STD_TYPES.h(13): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long int u64;
+                 ^
+MCAL/MUSART/MUSART_proc.c(14): warning: non-portable path to file '"../../LIB/BIT_Math.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "../../LIB/BIT_MATH.h"
+         ^~~~~~~~~~~~~~~~~~~~~~
+         "../../LIB/BIT_Math.h"
+MCAL/MUSART/MUSART_proc.c(38): warning: // comments are not allowed in this language [-Wcomment]
+        MUSART1->BRR = 0x0000008B ;   //baudRate 115200 bps, BRR = SystemClockFrequency(HSI = 16 MHZ) / (16 * baudRate) ->
+                                      ^
+MCAL/MUSART/MUSART_proc.c(46): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        CLR_BIT(MUSART1->CR2,12);
+        ^~~~~~~~~~~~~~~~~~~~~~~~
+MCAL/MUSART/../../LIB/BIT_MATH.h(4): note: expanded from macro 'CLR_BIT'
+#define CLR_BIT(REG,BIT_NUM) REG&=~(1<<BIT_NUM)
+                                ~~^~~~~~~~~~~~~
+MCAL/MUSART/MUSART_proc.c(47): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        CLR_BIT(MUSART1->CR2,13);
+        ^~~~~~~~~~~~~~~~~~~~~~~~
+MCAL/MUSART/../../LIB/BIT_MATH.h(4): note: expanded from macro 'CLR_BIT'
+#define CLR_BIT(REG,BIT_NUM) REG&=~(1<<BIT_NUM)
+                                ~~^~~~~~~~~~~~~
+MCAL/MUSART/MUSART_proc.c(61): warning: variable declaration in for loop is a C99-specific feature [-Wc99-extensions]
+   for(u8 Copy_u8Iterator = 0 ; Copy_u8Iterator < Copy_u8Len ; Copy_u8Iterator++ )
+       ^
+MCAL/MUSART/MUSART_proc.c(61): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+MCAL/MUSART/MUSART_proc.c(103): warning: no previous prototype for function 'MUSART_u8ReadDataAsynch' [-Wmissing-prototypes]
+u8 MUSART_u8ReadDataAsynch(void)
+   ^
+MCAL/MUSART/MUSART_proc.c(103): note: declare 'static' if the function is not intended to be used outside of this translation unit
+u8 MUSART_u8ReadDataAsynch(void)
+^
+static 
+MCAL/MUSART/MUSART_proc.c(130): warning: no previous prototype for function 'USART1_IRQHandler' [-Wmissing-prototypes]
+void USART1_IRQHandler(void)
+     ^
+MCAL/MUSART/MUSART_proc.c(130): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void USART1_IRQHandler(void)
+^
+static 
+11 warnings generated.
+compiling MUSART_proc.c...
+linking...
+Program Size: Code=4736 RO-data=420 RW-data=0 ZI-data=1664  
+FromELF: creating hex file...
+".\Objects\uartrecv.axf" - 0 Error(s), 27 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil.STM32F4xx_DFP.2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  D:/c/Keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/c/Keil/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK/Device/Source/ARM/STM32F4xx_OTP.s
+      Include file:  Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+      Source file:   MDK/Device/Source/ARM/STM32F401xx_OPT.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f401xc.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
