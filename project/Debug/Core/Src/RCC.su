@@ -1,0 +1,4 @@
+../Core/Src/RCC.c:33:6:Init_Rcc	4	static
+../Core/Src/RCC.c:85:6:Enable_peripheral	16	static
+../Core/Src/RCC.c:107:6:disable_peripheral	16	static
+../Core/Src/RCC.c:129:6:reset_peripheral	16	static

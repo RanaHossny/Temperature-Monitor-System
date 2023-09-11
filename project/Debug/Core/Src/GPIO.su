@@ -1,0 +1,9 @@
+../Core/Src/GPIO.c:35:17:MGPIO_vSetPinMode	16	static
+../Core/Src/GPIO.c:59:17:MGPIO_vSetPinOutputType	16	static
+../Core/Src/GPIO.c:91:17:MGPIO_vSetPinOutputSpeed	16	static
+../Core/Src/GPIO.c:116:17:MGPIO_vSetPinInputPull	16	static
+../Core/Src/GPIO.c:141:7:MGPIO_u8GetPinVal	24	static
+../Core/Src/GPIO.c:158:6:MGPIO_u8SetPinVal	16	static
+../Core/Src/GPIO.c:187:7:MGPIO_u8TogglePinVal	24	static
+../Core/Src/GPIO.c:193:6:MGPIO_vSetAlternativeFunction	16	static
+../Core/Src/GPIO.c:232:17:MGPIO_u8SetPinValFast	16	static

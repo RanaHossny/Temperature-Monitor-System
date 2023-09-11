@@ -1,0 +1,10 @@
+../Core/Src/SYSTICK.c:36:6:MSTK_voidInit	4	static
+../Core/Src/SYSTICK.c:46:6:MSTK_voidIntState	4	static
+../Core/Src/SYSTICK.c:50:6:MSTK_voidStart	16	static
+../Core/Src/SYSTICK.c:58:7:MSTK_u8ReadFlag	4	static
+../Core/Src/SYSTICK.c:62:6:MSTK_voidDelayUsec	24	static
+../Core/Src/SYSTICK.c:78:6:MSTK_voidDelayMsec	24	static
+../Core/Src/SYSTICK.c:95:6:MSTK_voidDelaysec	24	static
+../Core/Src/SYSTICK.c:113:8:MSTK_u32GetElapsedTime	4	static
+../Core/Src/SYSTICK.c:117:8:MSTK_u32GetRemainingTime	4	static
+../Core/Src/SYSTICK.c:120:6:CALLBACKSYS	16	static
