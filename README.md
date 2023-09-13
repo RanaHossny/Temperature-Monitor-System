@@ -61,3 +61,5 @@ You can further customize this project by adjusting temperature thresholds, impl
 
 ## Conclusion
 The Temperature Monitor Project using the STM32F401CCG6 microcontroller is designed to monitor temperature, control a fan and motor based on temperature thresholds, and communicate between the Sender and Receiver via UART. Customize and expand upon this project to suit your specific requirements and applications.
+[Click here to watch the video](https://drive.google.com/file/d/1p9pdvVeNDMJok9A_2910w6CVKsSAX-Ua/view?usp=sharing)
+
