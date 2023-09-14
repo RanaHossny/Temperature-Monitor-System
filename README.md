@@ -21,7 +21,7 @@ The Temperature Monitor Project involves two main components: the Sender and the
 ### Receiver (STM32F401CCG6)
 - **UART**: Receives temperature data from the Sender.
 - **Fan**: Turns on if the temperature exceeds 90°C.
-- **Motor**: Activated when the temperature remains high, initiating AutoParking.
+- **Motor**: deactivate when the temperature remains high for a certain time, initiating AutoParking.
 - **LCD**: Can be used to display temperature or system status.
 
 ## Project Workflow
